@@ -43,7 +43,7 @@ Your app should now be running on http://localhost:3000.
 
 ## API Endpoints
 
-1. Create a Task
+1. Create a Task:
    URL: /tasks
    Method: POST
    Request Body:
@@ -66,7 +66,7 @@ Your app should now be running on http://localhost:3000.
    "updatedAt": "2023-09-25T00:00:00.000Z"
    }
 
-2. Update a Task
+2. Update a Task:
    URL: /tasks/:id
    Method: PUT
    Request URL Parameters: Replace :id with the ID of the task to update.
@@ -90,7 +90,7 @@ Your app should now be running on http://localhost:3000.
    "updatedAt": "2023-09-26T00:00:00.000Z"
    }
 
-3. Get All Tasks (with Pagination)
+3. Get All Tasks (with Pagination):
    URL: /tasks
    Method: GET
    Query Parameters:
@@ -118,7 +118,7 @@ Your app should now be running on http://localhost:3000.
    "totalTasks": 15
    }
 
-4. Get Task Metrics
+4. Get Task Metrics:
    URL: /metrics
    Method: GET
    Response:
