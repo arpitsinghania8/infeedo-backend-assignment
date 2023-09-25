@@ -122,30 +122,29 @@ Your app should now be running on http://localhost:3000.
   ```
 
 4. Get Task Metrics:
-   URL: /metrics
-   Method: GET
-   Response:
-   Status: 200 OK
-   Body:
-   json
-   Copy code
-   [
-   {
-   "date": "September 2023",
-   "metrics": {
-   "open_tasks": 5,
-   "inprogress_tasks": 3,
-   "completed_tasks": 7
-   }
-   },
-   {
-   "date": "August 2023",
-   "metrics": {
-   "open_tasks": 2,
-   "inprogress_tasks": 4,
-   "completed_tasks": 10
-   }
-   },
-   // ... other months
-   ]
-   This README provides an overview of the Task Tracking System, including how to set up and run the app, as well as details about the available APIs. Feel free to customize and expand upon it for your specific project needs.
+
+- **URL:** `/metrics`
+- **Method:** `GET`
+- **Response:**
+  Status: 200 OK
+  Body:
+  ```json
+  [
+    {
+      "date": "September 2023",
+      "metrics": {
+        "open_tasks": 5,
+        "inprogress_tasks": 3,
+        "completed_tasks": 7
+      }
+    },
+    {
+      "date": "August 2023",
+      "metrics": {
+        "open_tasks": 2,
+        "inprogress_tasks": 4,
+        "completed_tasks": 10
+      }
+    }
+  ]
+  ```
