@@ -28,18 +28,18 @@ Before you begin, make sure you have the following installed:
 
 2. Navigate to the project directory:
    ```bash
-   Copy code
    cd task-tracking-system
    ```
 3. Install the required dependencies:
+
    ```bash
-   Copy code
    npm install
    ```
 
-bash
-Copy code
-npm start
+4. Start the app:
+   `bash
+ npm start`
+
 Your app should now be running on http://localhost:3000.
 
 API Endpoints
@@ -143,6 +143,10 @@ Copy code
 // ... other months
 ]
 This README provides an overview of the Task Tracking System, including how to set up and run the app, as well as details about the available APIs. Feel free to customize and expand upon it for your specific project needs.
+
+```
+
+```
 
 ```
 
