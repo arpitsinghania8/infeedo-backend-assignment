@@ -23,7 +23,7 @@ Before you begin, make sure you have the following installed:
 1. Clone this repository:
 
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:arpitsinghania8/infeedo-backend-assignment.git
    ```
 
 2. Navigate to the project directory:
