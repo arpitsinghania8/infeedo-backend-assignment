@@ -28,7 +28,7 @@ Before you begin, make sure you have the following installed:
 
 2. Navigate to the project directory:
    ```bash
-   cd task-tracking-system
+   cd infeedo-backend-assignment
    ```
 3. Install the required dependencies:
 
