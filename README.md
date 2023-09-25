@@ -17,7 +17,6 @@ This is a simple Task Tracking System built using Node.js, Express.js, and Seque
 Before you begin, make sure you have the following installed:
 
 - Node.js and npm
-- PostgreSQL database
 
 ## Getting Started
 
@@ -25,26 +24,18 @@ Before you begin, make sure you have the following installed:
 
    ```bash
    git clone <repository-url>
-   Navigate to the project directory:
    ```
 
-bash
-Copy code
-cd task-tracking-system
-Install the required dependencies:
-
-bash
-Copy code
-npm install
-Configure your PostgreSQL database connection in config/config.json.
-
-Create the database and run the migrations:
-
-bash
-Copy code
-npx sequelize-cli db:create
-npx sequelize-cli db:migrate
-Start the Node.js server:
+2. Navigate to the project directory:
+   ```bash
+   Copy code
+   cd task-tracking-system
+   ```
+3. Install the required dependencies:
+   ```bash
+   Copy code
+   npm install
+   ```
 
 bash
 Copy code
@@ -152,3 +143,7 @@ Copy code
 // ... other months
 ]
 This README provides an overview of the Task Tracking System, including how to set up and run the app, as well as details about the available APIs. Feel free to customize and expand upon it for your specific project needs.
+
+```
+
+```
