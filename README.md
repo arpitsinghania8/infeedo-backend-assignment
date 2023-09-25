@@ -69,28 +69,29 @@ Your app should now be running on http://localhost:3000.
   ```
 
 2. Update a Task:
-   URL: /tasks/:id
-   Method: PUT
-   Request URL Parameters: Replace :id with the ID of the task to update.
-   Request Body:
-   json
-   Copy code
-   {
-   "title": "Updated Task Title",
-   "status": "inprogress"
-   }
-   Response:
-   Status: 200 OK
-   Body:
-   json
-   Copy code
-   {
-   "id": 1,
-   "title": "Updated Task Title",
-   "status": "inprogress",
-   "createdAt": "2023-09-25T00:00:00.000Z",
-   "updatedAt": "2023-09-26T00:00:00.000Z"
-   }
+
+- **URL:** `/tasks/:id`
+- **Method:** `PUT`
+- **Request URL Parameters:** Replace :id with the ID of the task to update.
+- **Request Body:**
+  ````json
+  {
+  "title": "Updated Task Title",
+  "status": "inprogress"
+  }```
+  ````
+- **Response:**
+  Status: 200 OK
+  Body:
+  ```json
+  {
+    "id": 1,
+    "title": "Updated Task Title",
+    "status": "inprogress",
+    "createdAt": "2023-09-25T00:00:00.000Z",
+    "updatedAt": "2023-09-26T00:00:00.000Z"
+  }
+  ```
 
 3. Get All Tasks (with Pagination):
    URL: /tasks
