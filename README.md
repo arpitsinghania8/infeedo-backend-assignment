@@ -74,12 +74,12 @@ Your app should now be running on http://localhost:3000.
 - **Method:** `PUT`
 - **Request URL Parameters:** Replace :id with the ID of the task to update.
 - **Request Body:**
-  ````json
+  ```json
   {
-  "title": "Updated Task Title",
-  "status": "inprogress"
-  }```
-  ````
+    "title": "Updated Task Title",
+    "status": "inprogress"
+  }
+  ```
 - **Response:**
   Status: 200 OK
   Body:
@@ -94,32 +94,32 @@ Your app should now be running on http://localhost:3000.
   ```
 
 3. Get All Tasks (with Pagination):
-   URL: /tasks
-   Method: GET
-   Query Parameters:
-   page (optional, default: 1): Page number for pagination.
-   limit (optional, default: 10): Number of tasks per page.
-   Response:
-   Status: 200 OK
-   Body:
-   json
-   Copy code
-   {
-   "tasks": [
-   {
-   "id": 1,
-   "title": "Task 1",
-   "status": "open",
-   "createdAt": "2023-09-25T00:00:00.000Z",
-   "updatedAt": "2023-09-25T00:00:00.000Z"
-   },
-   // ... other tasks
-   ],
-   "page": 1,
-   "limit": 10,
-   "totalPages": 2,
-   "totalTasks": 15
-   }
+
+- **URL:** `/tasks`
+- **Method:** `GET`
+- **Query Parameters:**
+  page (optional, default: 1): Page number for pagination.
+  limit (optional, default: 10): Number of tasks per page.
+- **Response:**
+  Status: 200 OK
+  Body:
+  ```json
+  {
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Task 1",
+        "status": "open",
+        "createdAt": "2023-09-25T00:00:00.000Z",
+        "updatedAt": "2023-09-25T00:00:00.000Z"
+      }
+    ],
+    "page": 1,
+    "limit": 10,
+    "totalPages": 2,
+    "totalTasks": 15
+  }
+  ```
 
 4. Get Task Metrics:
    URL: /metrics
