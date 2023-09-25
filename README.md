@@ -44,27 +44,28 @@ Your app should now be running on http://localhost:3000.
 ## API Endpoints
 
 1. Create a Task:
-   URL: /tasks
-   Method: POST
-   Request Body:
-   json
-   Copy code
-   {
-   "title": "Task Title",
-   "status": "open"
-   }
+
+- **URL:** `/tasks`
+- **Method:** `POST`
+- **Description:** Create a new task.
+- **Request Body:**
+  ````json
+  {
+    "title": "Task Title",
+    "status": "open"
+  }```
    Response:
    Status: 201 Created
    Body:
    json
-   Copy code
-   {
+   ```{
    "id": 1,
    "title": "Task Title",
    "status": "open",
    "createdAt": "2023-09-25T00:00:00.000Z",
    "updatedAt": "2023-09-25T00:00:00.000Z"
    }
+  ````
 
 2. Update a Task:
    URL: /tasks/:id
