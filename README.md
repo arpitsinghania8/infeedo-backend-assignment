@@ -49,23 +49,24 @@ Your app should now be running on http://localhost:3000.
 - **Method:** `POST`
 - **Description:** Create a new task.
 - **Request Body:**
-  ````json
+  ```json
   {
     "title": "Task Title",
     "status": "open"
-  }```
-   Response:
-   Status: 201 Created
-   Body:
-   json
-   ```{
-   "id": 1,
-   "title": "Task Title",
-   "status": "open",
-   "createdAt": "2023-09-25T00:00:00.000Z",
-   "updatedAt": "2023-09-25T00:00:00.000Z"
-   }
-  ````
+  }
+  ```
+- **Response:**
+  Status: 201 Created
+  Body:
+  ```json
+  {
+    "id": 1,
+    "title": "Task Title",
+    "status": "open",
+    "createdAt": "2023-09-25T00:00:00.000Z",
+    "updatedAt": "2023-09-25T00:00:00.000Z"
+  }
+  ```
 
 2. Update a Task:
    URL: /tasks/:id
