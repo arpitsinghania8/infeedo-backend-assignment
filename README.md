@@ -37,7 +37,7 @@ Before you begin, make sure you have the following installed:
    ```
 
 4. Start the app:
-   `npm start`
+   `npm run start` or `node app`
 
 Your app should now be running on http://localhost:3000.
 
